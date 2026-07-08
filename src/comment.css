@@ -1,0 +1,79 @@
+#comment-area {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+#comment-area h1 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+#comment-input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+#comment-input input[type="text"],
+#comment-input textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+
+#comment-input textarea {
+  min-height: 80px;
+}
+
+#comment-input button {
+  align-self: flex-end;
+  padding: 10px 22px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#comment-input button:hover {
+  background: #45a049;
+}
+
+#comment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+#comment-section div {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.message-owner {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 6px;
+}
+
+.message-content {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}

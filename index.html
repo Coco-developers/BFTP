@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bread for the poor</title>
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/comment.css">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -15,8 +16,20 @@
     <div id="main-body">
         <h1>Bread taste better than key</h1>
         <img class="first" src="./src/images/bread > key.png">
+
+        <!-- Comment area -->
+        <div id="comment-area">
+            <h1>Comments - share your thoughts</h1>
+            <div id="comment-input">
+                <input id="username-input" type="text" placeholder="Username">
+                <textarea id="comment-content" type="text" placeholder="Say something..."></textarea>
+                <button onclick="Comment();">Comment</button>
+            </div>
+            <div id="comment-section"></div>
+        </div>
     </div>
 
     <script src="./src/script.js"></script>
+    <script src="./src/comments.js"></script>
 </body>
 </html>
