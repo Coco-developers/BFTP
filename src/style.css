@@ -2,8 +2,30 @@ h1 {
     color: blue;
     text-align: center;
 }
-body {
+#main-body {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#mode-button{
+    visibility: hidden;
+    background-color: blue;
+    padding: 2%;
+    border-radius: 10%;
+}
+#mode-button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
