@@ -29,3 +29,19 @@ h1 {
     top: 0;
     z-index: 1000;
 }
+#pictures {
+    display:flex;
+    gap:32px;
+    justify-content: space-around;
+    margin: 10px;
+}
+.dance {
+    width: 450px;
+    height: 300px;
+}
+.gang {
+    min-width:450px;
+}
+.peak {
+    max-width:450px;
+}
